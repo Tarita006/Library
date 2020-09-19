@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="css/all.min.css">
+     
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Old+Standard+TT&display=swap" rel="stylesheet">
+   <link rel="stylesheet"  href="css/style.css">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <header>
+           <nav>
+               <div class="row clearfix">
+                  <img src="img/logo2.png" alt="logo" class="logo">
+                <ul class="main-nav" id="check-class">
+                    <li> <a href="#"> Home </a></li>
+                    <li> <a href="#"> About Us</a></li>
+                    <li> <a href="#"> Library</a></li>
+                    <li> <a href="#"> Download </a></li>
+                    <li> <a href="#"> Offers</a></li>
+                    <li> <a href="#"> Language</a></li>
+                    <li> <a href="#"> Contact</a></li> 
+                    <li> <a href="#"> Sign up</a></li> 
+                    <li> <a href="#"> Search</a></li>   
+                </ul>
+                   <a href="#" class="tab" onclick="slideshow()"><i class="fas fa-bars"></i></a>
+                  </div>
+                <div class="main-content-header">
+                   <h1>
+                        Welcome <span class="change">Page Turners</span><br> 
+                        House of books, light of life  
+                   </h1>
+                   <a href="#" class="btn btn-full"> Click to order </a>
+                   <a href="#" class="btn btn-nav"> Show me more </a>   
+                </div>
+           </nav>
+       </header>
+       <script type="text/javascript">
+           
+           function slideshow(){
+               var x = document.getElementById('check-class');
+               if(x.style.display==="none"){
+                   (x.style.display="block")}
+                   else{(x.style.display="none") }
+           }
+        </script>
+    </body>
+</html>
